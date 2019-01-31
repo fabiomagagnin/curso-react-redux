@@ -10,5 +10,10 @@ export default props => (
             <MenuItem path='#billingCycles'
                 label='Ciclos de Pagamentos' icon='usd' />
         </MenuTree>
+
+        <MenuTree label='Meu Caixa Fácil' icon='edit'> 
+            <MenuItem path='#receitas' label='Receitas' icon='usd' />
+            <MenuItem path='#despesas' label='Despesas' icon='usd' />
+        </MenuTree>        
     </ul>
 )
